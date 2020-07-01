@@ -1,4 +1,10 @@
 import React from "react";
+import dinePic from "../images/application-example.gif";
+import ghcPic from "../images/ghc-example.gif";
+import burgerPic from "../images/burger-example.gif";
+import directionsPic from "../images/directions-example.gif";
+import readmePic from "../images/node-application-example.gif";
+import employeePic from "../images/employee-example.gif";
 
 function Projects (props) {
     return (
@@ -9,10 +15,10 @@ function Projects (props) {
 
                     <div className="card">
                         <div className="image">
-                            <img src={} alt=""/>
+                            <img src={dinePic} alt="dine-or-dash"/>
                         </div>
                         <div className="content">
-                            <a className="header">Dine or Dash</a>
+                            <h2 className="header">Dine or Dash</h2>
                         <div className="meta">
                               <span className="date">Full-Stack Web Application</span>
                         </div>
@@ -26,10 +32,10 @@ function Projects (props) {
 
                         <div className="card">
                           <div className="image">
-                            <img src={} alt=""/>
+                            <img src={ghcPic} alt="ghc"/>
                           </div>
                           <div className="content">
-                            <a className="header">GHC Website</a>
+                            <h2 className="header">GHC Website</h2>
                             <div className="meta">
                               <span className="date">Website I created for local AC company</span>
                             </div>
@@ -43,10 +49,10 @@ function Projects (props) {
 
                         <div className="card">
                           <div className="image">
-                            <img src={} alt=""/>
+                            <img src={burgerPic} alt="burger-shop"/>
                           </div>
                           <div className="content">
-                            <a className="header">Burger Shop</a>
+                            <h2 className="header">Burger Shop</h2>
                             <div className="meta">
                               <span className="date">Full-Stack Web Application</span>
                             </div>
@@ -60,10 +66,10 @@ function Projects (props) {
 
                         <div className="card">
                           <div className="image">
-                            <img src={} alt=""/>
+                            <img src={directionsPic} alt="directions-weather-app"/>
                           </div>
                           <div className="content">
-                            <a className="header">Directions App</a>
+                            <h2 className="header">Directions App</h2>
                             <div className="meta">
                               <span className="date">Web Application</span>
                             </div>
@@ -77,10 +83,10 @@ function Projects (props) {
 
                         <div className="card">
                           <div className="image">
-                            <img src={} alt=""/>
+                            <img src={readmePic} alt="node-example"/>
                           </div>
                           <div className="content">
-                            <a className="header">ReadMe Generator</a>
+                            <h2 className="header">ReadMe Generator</h2>
                             <div className="meta">
                               <span className="date">Node Application</span>
                             </div>
@@ -94,10 +100,10 @@ function Projects (props) {
 
                         <div className="card">
                           <div className="image">
-                            <img src={} alt=""/>
+                            <img src={employeePic} alt="employee example"/>
                           </div>
                           <div className="content">
-                            <a className="header">Employee Tracker</a>
+                            <h2 className="header">Employee Tracker</h2>
                             <div className="meta">
                               <span className="date">Node Application</span>
                             </div>
