@@ -8,7 +8,7 @@ import employeePic from "../images/employee-example.gif";
 
 function Projects (props) {
     return (
-        <div>
+        <div className="project-div">
 
             <h1 className="projects">Checkout some of my previous work!</h1>
                 <div className="ui three stackable cards">

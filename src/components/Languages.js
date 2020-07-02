@@ -11,7 +11,7 @@ import awsPic from "../images/aws-logo.png";
 
 function Languages (props) {
     return (
-        <div>
+        <div className="languages">
         <h1 className="technologies">Known Languages/Technologies:</h1>
           <div className="ui list">
             <div className="item">
